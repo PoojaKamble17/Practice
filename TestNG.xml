@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Functional Test Suits" verbose="1" parallel="classes" thread-count = '1'>
+
+	<parameter name = "browser" value = "firefox"/>
+  <test name="Sanity bucket">
+    <classes>
+       <class name="com.StarAgile.test.Practice"/>
+       
+    </classes>
+  </test>
+</suite>
